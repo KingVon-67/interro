@@ -1,14 +1,15 @@
-class Etudiant {
+export default class Etudiant {
 //attributs
 nom 
 age
 section
 
-   constructor(){
-    this.nom = "Isiah"
-    this.age =17
-    this.section = "info"
+   constructor(nom,age,section){
+    this.nom = nom
+    this.age = age
+    this.section = section
    }
+   
 
 
 }
